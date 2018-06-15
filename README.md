@@ -24,9 +24,9 @@ https://github.com/diegonehab/luasocket<br>
 **struct**<br>
 http://www.inf.puc-rio.br/~roberto/struct/<br>
 **lpeg**<br>
-http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html
+http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html<br>
 **luv**<br>
-https://github.com/luvit/luv
+https://github.com/luvit/luv<br>
 **luv**<br>
-https://github.com/libuv/libuv
+https://github.com/libuv/libuv<br>
 
