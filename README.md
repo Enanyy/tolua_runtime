@@ -12,6 +12,8 @@ https://github.com/topameng/tolua_runtime/wiki<br>
 配置好的Msys2下载<br>
 https://pan.baidu.com/s/1c2JzvDQ<br>
 
+在原基础上集成libuv库
+
 # Libs
 **cjson**<br>
 https://github.com/mpx/lua-cjson<br>
@@ -23,3 +25,8 @@ https://github.com/diegonehab/luasocket<br>
 http://www.inf.puc-rio.br/~roberto/struct/<br>
 **lpeg**<br>
 http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html
+**luv**<br>
+https://github.com/luvit/luv
+**luv**<br>
+https://github.com/libuv/libuv
+
