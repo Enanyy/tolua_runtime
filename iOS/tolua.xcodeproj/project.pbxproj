@@ -34,6 +34,37 @@
 		840092EF1CCF45A800F89A56 /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 840092DB1CCF45A800F89A56 /* unix.c */; };
 		840092F01CCF45A800F89A56 /* usocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 840092DD1CCF45A800F89A56 /* usocket.c */; };
 		8445EB151D4C9F8A00397F5E /* uint64.c in Sources */ = {isa = PBXBuildFile; fileRef = 8445EB141D4C9F8A00397F5E /* uint64.c */; };
+		8E94438A20D7D81900CB190A /* poll.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94436820D7D81600CB190A /* poll.c */; };
+		8E94438B20D7D81900CB190A /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94436920D7D81700CB190A /* async.c */; };
+		8E94438C20D7D81900CB190A /* luv.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94436B20D7D81700CB190A /* luv.c */; };
+		8E94438D20D7D81900CB190A /* fs_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94436C20D7D81700CB190A /* fs_event.c */; };
+		8E94438E20D7D81900CB190A /* handle.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94436D20D7D81700CB190A /* handle.c */; };
+		8E94438F20D7D81900CB190A /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94436E20D7D81700CB190A /* timer.c */; };
+		8E94439020D7D81900CB190A /* fs_poll.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437120D7D81700CB190A /* fs_poll.c */; };
+		8E94439120D7D81900CB190A /* lreq.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437220D7D81700CB190A /* lreq.c */; };
+		8E94439220D7D81900CB190A /* idle.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437320D7D81700CB190A /* idle.c */; };
+		8E94439320D7D81900CB190A /* fs.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437420D7D81700CB190A /* fs.c */; };
+		8E94439420D7D81900CB190A /* process.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437520D7D81700CB190A /* process.c */; };
+		8E94439520D7D81900CB190A /* check.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437620D7D81700CB190A /* check.c */; };
+		8E94439620D7D81900CB190A /* constants.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437720D7D81700CB190A /* constants.c */; };
+		8E94439720D7D81900CB190A /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437820D7D81800CB190A /* misc.c */; };
+		8E94439820D7D81900CB190A /* signal.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437920D7D81800CB190A /* signal.c */; };
+		8E94439920D7D81900CB190A /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437A20D7D81800CB190A /* stream.c */; };
+		8E94439A20D7D81900CB190A /* work.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437B20D7D81800CB190A /* work.c */; };
+		8E94439B20D7D81900CB190A /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437C20D7D81800CB190A /* thread.c */; };
+		8E94439C20D7D81900CB190A /* pipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437D20D7D81800CB190A /* pipe.c */; };
+		8E94439D20D7D81900CB190A /* loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437E20D7D81800CB190A /* loop.c */; };
+		8E94439E20D7D81900CB190A /* tty.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94437F20D7D81800CB190A /* tty.c */; };
+		8E94439F20D7D81900CB190A /* schema.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438020D7D81800CB190A /* schema.c */; };
+		8E9443A020D7D81900CB190A /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438120D7D81800CB190A /* udp.c */; };
+		8E9443A120D7D81900CB190A /* compat-5.3.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438220D7D81800CB190A /* compat-5.3.c */; };
+		8E9443A220D7D81900CB190A /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438320D7D81900CB190A /* util.c */; };
+		8E9443A320D7D81900CB190A /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438520D7D81900CB190A /* dns.c */; };
+		8E9443A420D7D81900CB190A /* req.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438620D7D81900CB190A /* req.c */; };
+		8E9443A520D7D81900CB190A /* lhandle.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438720D7D81900CB190A /* lhandle.c */; };
+		8E9443A620D7D81900CB190A /* prepare.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438820D7D81900CB190A /* prepare.c */; };
+		8E9443A720D7D81900CB190A /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438920D7D81900CB190A /* tcp.c */; };
+		8E94440120D7FAED00CB190A /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E94440020D7FAED00CB190A /* libuv.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +127,44 @@
 		840092DD1CCF45A800F89A56 /* usocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usocket.c; sourceTree = "<group>"; };
 		840092DE1CCF45A800F89A56 /* usocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usocket.h; sourceTree = "<group>"; };
 		8445EB141D4C9F8A00397F5E /* uint64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uint64.c; path = ../../uint64.c; sourceTree = "<group>"; };
+		8E94436620D7D81600CB190A /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = ../../../luv/util.h; sourceTree = "<group>"; };
+		8E94436720D7D81600CB190A /* lreq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lreq.h; path = ../../../luv/lreq.h; sourceTree = "<group>"; };
+		8E94436820D7D81600CB190A /* poll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = poll.c; path = ../../../luv/poll.c; sourceTree = "<group>"; };
+		8E94436920D7D81700CB190A /* async.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = async.c; path = ../../../luv/async.c; sourceTree = "<group>"; };
+		8E94436A20D7D81700CB190A /* compat-5.3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "compat-5.3.h"; path = "../../../luv/compat-5.3.h"; sourceTree = "<group>"; };
+		8E94436B20D7D81700CB190A /* luv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = luv.c; path = ../../../luv/luv.c; sourceTree = "<group>"; };
+		8E94436C20D7D81700CB190A /* fs_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fs_event.c; path = ../../../luv/fs_event.c; sourceTree = "<group>"; };
+		8E94436D20D7D81700CB190A /* handle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = handle.c; path = ../../../luv/handle.c; sourceTree = "<group>"; };
+		8E94436E20D7D81700CB190A /* timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = timer.c; path = ../../../luv/timer.c; sourceTree = "<group>"; };
+		8E94436F20D7D81700CB190A /* lhandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lhandle.h; path = ../../../luv/lhandle.h; sourceTree = "<group>"; };
+		8E94437020D7D81700CB190A /* lthreadpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lthreadpool.h; path = ../../../luv/lthreadpool.h; sourceTree = "<group>"; };
+		8E94437120D7D81700CB190A /* fs_poll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fs_poll.c; path = ../../../luv/fs_poll.c; sourceTree = "<group>"; };
+		8E94437220D7D81700CB190A /* lreq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lreq.c; path = ../../../luv/lreq.c; sourceTree = "<group>"; };
+		8E94437320D7D81700CB190A /* idle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idle.c; path = ../../../luv/idle.c; sourceTree = "<group>"; };
+		8E94437420D7D81700CB190A /* fs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fs.c; path = ../../../luv/fs.c; sourceTree = "<group>"; };
+		8E94437520D7D81700CB190A /* process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = process.c; path = ../../../luv/process.c; sourceTree = "<group>"; };
+		8E94437620D7D81700CB190A /* check.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = check.c; path = ../../../luv/check.c; sourceTree = "<group>"; };
+		8E94437720D7D81700CB190A /* constants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constants.c; path = ../../../luv/constants.c; sourceTree = "<group>"; };
+		8E94437820D7D81800CB190A /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misc.c; path = ../../../luv/misc.c; sourceTree = "<group>"; };
+		8E94437920D7D81800CB190A /* signal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signal.c; path = ../../../luv/signal.c; sourceTree = "<group>"; };
+		8E94437A20D7D81800CB190A /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stream.c; path = ../../../luv/stream.c; sourceTree = "<group>"; };
+		8E94437B20D7D81800CB190A /* work.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = work.c; path = ../../../luv/work.c; sourceTree = "<group>"; };
+		8E94437C20D7D81800CB190A /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = thread.c; path = ../../../luv/thread.c; sourceTree = "<group>"; };
+		8E94437D20D7D81800CB190A /* pipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pipe.c; path = ../../../luv/pipe.c; sourceTree = "<group>"; };
+		8E94437E20D7D81800CB190A /* loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = loop.c; path = ../../../luv/loop.c; sourceTree = "<group>"; };
+		8E94437F20D7D81800CB190A /* tty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tty.c; path = ../../../luv/tty.c; sourceTree = "<group>"; };
+		8E94438020D7D81800CB190A /* schema.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = schema.c; path = ../../../luv/schema.c; sourceTree = "<group>"; };
+		8E94438120D7D81800CB190A /* udp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = udp.c; path = ../../../luv/udp.c; sourceTree = "<group>"; };
+		8E94438220D7D81800CB190A /* compat-5.3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "compat-5.3.c"; path = "../../../luv/compat-5.3.c"; sourceTree = "<group>"; };
+		8E94438320D7D81900CB190A /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = ../../../luv/util.c; sourceTree = "<group>"; };
+		8E94438420D7D81900CB190A /* luv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = luv.h; path = ../../../luv/luv.h; sourceTree = "<group>"; };
+		8E94438520D7D81900CB190A /* dns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dns.c; path = ../../../luv/dns.c; sourceTree = "<group>"; };
+		8E94438620D7D81900CB190A /* req.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = req.c; path = ../../../luv/req.c; sourceTree = "<group>"; };
+		8E94438720D7D81900CB190A /* lhandle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lhandle.c; path = ../../../luv/lhandle.c; sourceTree = "<group>"; };
+		8E94438820D7D81900CB190A /* prepare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = prepare.c; path = ../../../luv/prepare.c; sourceTree = "<group>"; };
+		8E94438920D7D81900CB190A /* tcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tcp.c; path = ../../../luv/tcp.c; sourceTree = "<group>"; };
+		8E9443FF20D7F89100CB190A /* handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = handle.h; path = ../../../luv/handle.h; sourceTree = "<group>"; };
+		8E94440020D7FAED00CB190A /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuv.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E94440120D7FAED00CB190A /* libuv.a in Frameworks */,
 				840092A81CCF44F800F89A56 /* libluajit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +199,8 @@
 		8400929D1CCF43D600F89A56 /* tolua */ = {
 			isa = PBXGroup;
 			children = (
+				8E94440020D7FAED00CB190A /* libuv.a */,
+				8E94436520D7D7DE00CB190A /* luv */,
 				840092BD1CCF45A800F89A56 /* luasocket */,
 				840092B31CCF455100F89A56 /* cjson */,
 				840092A91CCF450F00F89A56 /* int64.c */,
@@ -196,6 +268,50 @@
 			path = ../../luasocket;
 			sourceTree = "<group>";
 		};
+		8E94436520D7D7DE00CB190A /* luv */ = {
+			isa = PBXGroup;
+			children = (
+				8E9443FF20D7F89100CB190A /* handle.h */,
+				8E94436920D7D81700CB190A /* async.c */,
+				8E94437620D7D81700CB190A /* check.c */,
+				8E94438220D7D81800CB190A /* compat-5.3.c */,
+				8E94436A20D7D81700CB190A /* compat-5.3.h */,
+				8E94437720D7D81700CB190A /* constants.c */,
+				8E94438520D7D81900CB190A /* dns.c */,
+				8E94436C20D7D81700CB190A /* fs_event.c */,
+				8E94437120D7D81700CB190A /* fs_poll.c */,
+				8E94437420D7D81700CB190A /* fs.c */,
+				8E94436D20D7D81700CB190A /* handle.c */,
+				8E94437320D7D81700CB190A /* idle.c */,
+				8E94438720D7D81900CB190A /* lhandle.c */,
+				8E94436F20D7D81700CB190A /* lhandle.h */,
+				8E94437E20D7D81800CB190A /* loop.c */,
+				8E94437220D7D81700CB190A /* lreq.c */,
+				8E94436720D7D81600CB190A /* lreq.h */,
+				8E94437020D7D81700CB190A /* lthreadpool.h */,
+				8E94436B20D7D81700CB190A /* luv.c */,
+				8E94438420D7D81900CB190A /* luv.h */,
+				8E94437820D7D81800CB190A /* misc.c */,
+				8E94437D20D7D81800CB190A /* pipe.c */,
+				8E94436820D7D81600CB190A /* poll.c */,
+				8E94438820D7D81900CB190A /* prepare.c */,
+				8E94437520D7D81700CB190A /* process.c */,
+				8E94438620D7D81900CB190A /* req.c */,
+				8E94438020D7D81800CB190A /* schema.c */,
+				8E94437920D7D81800CB190A /* signal.c */,
+				8E94437A20D7D81800CB190A /* stream.c */,
+				8E94438920D7D81900CB190A /* tcp.c */,
+				8E94437C20D7D81800CB190A /* thread.c */,
+				8E94436E20D7D81700CB190A /* timer.c */,
+				8E94437F20D7D81800CB190A /* tty.c */,
+				8E94438120D7D81800CB190A /* udp.c */,
+				8E94438320D7D81900CB190A /* util.c */,
+				8E94436620D7D81600CB190A /* util.h */,
+				8E94437B20D7D81800CB190A /* work.c */,
+			);
+			path = luv;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,31 +369,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E94438E20D7D81900CB190A /* handle.c in Sources */,
+				8E9443A320D7D81900CB190A /* dns.c in Sources */,
+				8E94439720D7D81900CB190A /* misc.c in Sources */,
+				8E94438A20D7D81900CB190A /* poll.c in Sources */,
+				8E94439120D7D81900CB190A /* lreq.c in Sources */,
+				8E94438C20D7D81900CB190A /* luv.c in Sources */,
 				840092A11CCF43D600F89A56 /* tolua.m in Sources */,
 				840092EB1CCF45A800F89A56 /* serial.c in Sources */,
+				8E94439420D7D81900CB190A /* process.c in Sources */,
+				8E94438B20D7D81900CB190A /* async.c in Sources */,
 				840092EE1CCF45A800F89A56 /* udp.c in Sources */,
+				8E94439B20D7D81900CB190A /* thread.c in Sources */,
+				8E9443A720D7D81900CB190A /* tcp.c in Sources */,
 				840092E41CCF45A800F89A56 /* except.c in Sources */,
+				8E94439A20D7D81900CB190A /* work.c in Sources */,
 				840092AC1CCF451400F89A56 /* lpeg.c in Sources */,
 				840092BB1CCF455100F89A56 /* lua_cjson.c in Sources */,
+				8E94439020D7D81900CB190A /* fs_poll.c in Sources */,
+				8E9443A020D7D81900CB190A /* udp.c in Sources */,
+				8E94439E20D7D81900CB190A /* tty.c in Sources */,
 				840092B01CCF452100F89A56 /* struct.c in Sources */,
 				840092B21CCF452700F89A56 /* tolua.c in Sources */,
 				8445EB151D4C9F8A00397F5E /* uint64.c in Sources */,
+				8E94439320D7D81900CB190A /* fs.c in Sources */,
 				840092E71CCF45A800F89A56 /* luasocket.c in Sources */,
+				8E9443A620D7D81900CB190A /* prepare.c in Sources */,
 				840092EC1CCF45A800F89A56 /* tcp.c in Sources */,
+				8E94438F20D7D81900CB190A /* timer.c in Sources */,
 				840092F01CCF45A800F89A56 /* usocket.c in Sources */,
 				840092EF1CCF45A800F89A56 /* unix.c in Sources */,
 				840092AA1CCF450F00F89A56 /* int64.c in Sources */,
 				840092ED1CCF45A800F89A56 /* timeout.c in Sources */,
+				8E94439620D7D81900CB190A /* constants.c in Sources */,
 				840092E11CCF45A800F89A56 /* auxiliar.c in Sources */,
+				8E9443A520D7D81900CB190A /* lhandle.c in Sources */,
+				8E94439520D7D81900CB190A /* check.c in Sources */,
+				8E94439C20D7D81900CB190A /* pipe.c in Sources */,
+				8E9443A120D7D81900CB190A /* compat-5.3.c in Sources */,
+				8E94439D20D7D81900CB190A /* loop.c in Sources */,
 				840092E81CCF45A800F89A56 /* mime.c in Sources */,
 				840092AE1CCF451C00F89A56 /* pb.c in Sources */,
 				840092E61CCF45A800F89A56 /* io.c in Sources */,
+				8E94439820D7D81900CB190A /* signal.c in Sources */,
+				8E94439F20D7D81900CB190A /* schema.c in Sources */,
 				840092BA1CCF455100F89A56 /* fpconv.c in Sources */,
+				8E94438D20D7D81900CB190A /* fs_event.c in Sources */,
 				840092E21CCF45A800F89A56 /* buffer.c in Sources */,
+				8E94439220D7D81900CB190A /* idle.c in Sources */,
 				840092BC1CCF455100F89A56 /* strbuf.c in Sources */,
+				8E9443A220D7D81900CB190A /* util.c in Sources */,
 				840092E91CCF45A800F89A56 /* options.c in Sources */,
 				840092E51CCF45A800F89A56 /* inet.c in Sources */,
 				840092EA1CCF45A800F89A56 /* select.c in Sources */,
+				8E9443A420D7D81900CB190A /* req.c in Sources */,
+				8E94439920D7D81900CB190A /* stream.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +517,13 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				HEADER_SEARCH_PATHS = "../luajit-2.1/src";
+				HEADER_SEARCH_PATHS = (
+					"../luajit-2.1/src",
+					"../libuv-v1.19.2/include",
+					"../libuv-v1.19.2/src",
+					"../libuv-v1.19.2/src/unix",
+					../luv,
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -388,7 +540,13 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				HEADER_SEARCH_PATHS = "../luajit-2.1/src";
+				HEADER_SEARCH_PATHS = (
+					"../luajit-2.1/src",
+					"../libuv-v1.19.2/include",
+					"../libuv-v1.19.2/src",
+					"../libuv-v1.19.2/src/unix",
+					../luv,
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
