@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+mkdir -p Plugins/iOS
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 LIPO="xcrun -sdk iphoneos lipo"
 STRIP="xcrun -sdk iphoneos strip"
@@ -43,6 +44,7 @@ mv "$SRCDIR"/src/libluajit.a "$DESTDIR"/libluajit-arm64.a
 make clean
 
 cd ../iOS
+cp ../window/iOS/libuv.a ./
 $LIPO -create "$DESTDIR"/libluajit-*.a -output "$DESTDIR"/libluajit.a
 $STRIP -S "$DESTDIR"/libluajit.a
 xcodebuild clean
