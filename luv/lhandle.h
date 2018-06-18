@@ -71,5 +71,8 @@ static void luv_find_handle(lua_State* L, luv_handle_t* data);
 static void luv_unref_handle(lua_State* L, luv_handle_t* data);
 
 /*traceback message*/
-static int traceback(lua_State *L);
+//static int traceback(lua_State *L);
+
+
+
 #endif

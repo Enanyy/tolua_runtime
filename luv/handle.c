@@ -15,6 +15,7 @@
  *
  */
 #include "luv.h"
+#include "handle.h"
 
 static void* luv_newuserdata(lua_State* L, size_t sz) {
   void* handle = malloc(sz);

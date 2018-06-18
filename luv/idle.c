@@ -15,6 +15,7 @@
  *
  */
 #include "luv.h"
+#include "handle.h"
 
 static uv_idle_t* luv_check_idle(lua_State* L, int index) {
   uv_idle_t* handle = (uv_idle_t*)luv_checkudata(L, index, "uv_idle");

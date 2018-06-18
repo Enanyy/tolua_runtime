@@ -15,6 +15,7 @@
  *
  */
 #include "luv.h"
+#include "handle.h"
 #include "lthreadpool.h"
 
 static uv_async_t* luv_check_async(lua_State* L, int index) {

@@ -16,6 +16,10 @@
 */
 #include "luv.h"
 #include "lthreadpool.h"
+extern int traceback(lua_State *L);
+extern luv_acquire_vm acquire_vm_cb;
+extern luv_release_vm release_vm_cb;
+extern const char* luv_thread_dumped(lua_State* L, int idx, size_t* l);
 
 typedef struct {
   lua_State* L;       /* vm in main */

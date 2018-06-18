@@ -15,6 +15,7 @@
  *
  */
 #include "luv.h"
+#include "handle.h"
 
 static uv_pipe_t* luv_check_pipe(lua_State* L, int index) {
   uv_pipe_t* handle = (uv_pipe_t*)luv_checkudata(L, index, "uv_pipe");

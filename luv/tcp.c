@@ -15,6 +15,7 @@
  *
  */
 #include "luv.h"
+#include "handle.h"
 
 static uv_tcp_t* luv_check_tcp(lua_State* L, int index) {
   uv_tcp_t* handle = (uv_tcp_t*)luv_checkudata(L, index, "uv_tcp");

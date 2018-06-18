@@ -16,7 +16,7 @@
 */
 #include "luv.h"
 #include "lthreadpool.h"
-#include "lhandle.h"
+#include "handle.h"
 
 typedef struct {
   uv_thread_t handle;
@@ -242,6 +242,8 @@ static int luv_thread_tostring(lua_State* L)
   lua_pushfstring(L, "uv_thread_t: %p", thd->handle);
   return 1;
 }
+
+extern int traceback(lua_State *L);
 
 static void luv_thread_cb(void* varg) {
   int top, errfunc;

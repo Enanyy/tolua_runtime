@@ -15,6 +15,7 @@
  *
  */
 #include "luv.h"
+#include "handle.h"
 
 static uv_timer_t* luv_check_timer(lua_State* L, int index) {
   uv_timer_t* handle = (uv_timer_t*) luv_checkudata(L, index, "uv_timer");
