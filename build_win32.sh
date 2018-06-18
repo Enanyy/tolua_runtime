@@ -34,10 +34,14 @@ gcc -m32 -O2 -std=gnu99 -shared \
 	luasocket/timeout.c \
 	luasocket/udp.c \
 	luasocket/wsocket.c \
+	luv/luv.c \
 	-o Plugins/x86/tolua.dll \
 	-I./ \
 	-Iluajit-2.1/src \
 	-Icjson \
 	-Iluasocket \
-	-lws2_32 \
+	-Ilibuv-v1.19.2/include \
+	-Iluv \
+	-L./window/x86 -luv \
+	-lws2_32 -lpsapi -luserenv -lkernel32 -luser32 -liphlpapi -lgdi32 -lwinspool -lcomdlg32 -ladvapi32  \
 	-Wl,--whole-archive window/x86/libluajit.a -Wl,--no-whole-archive -static-libgcc -static-libstdc++
