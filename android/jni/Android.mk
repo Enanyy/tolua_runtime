@@ -14,6 +14,7 @@ LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../uuid
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../uuid/libuuid-1.0.3
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../lsqlite3
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../lsqlite3/sqlite3/src
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../luafilesystem/src
 LOCAL_CPPFLAGS := -O2
 LOCAL_CFLAGS :=  -O2 -std=gnu99 -g -DNDEBUG -DHAVE_USLEEP
 LOCAL_SRC_FILES :=	../../tolua.c \
@@ -54,6 +55,7 @@ LOCAL_SRC_FILES :=	../../tolua.c \
 					../../lsqlite3/sqlite3/src/shell.c \
 					../../lsqlite3/sqlite3/src/sqlite3.c \
 					../../lsqlite3/lsqlite3.c \
+					../../luafilesystem/src/lfs.c \
 				
  					
 LOCAL_WHOLE_STATIC_LIBRARIES += libluajit
