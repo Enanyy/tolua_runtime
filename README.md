@@ -12,7 +12,7 @@ https://github.com/topameng/tolua_runtime/wiki<br>
 配置好的Msys2下载<br>
 https://pan.baidu.com/s/1c2JzvDQ<br>
 
-在原基础上集成libuv库
+# 在原基础上集成libuv,lsqlite3,luafilesystem,lpack,uuid
 
 # Libs
 **cjson**<br>
@@ -27,6 +27,6 @@ http://www.inf.puc-rio.br/~roberto/struct/<br>
 http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html<br>
 **luv**<br>
 https://github.com/luvit/luv<br>
-**luv**<br>
+**libuv**<br>
 https://github.com/libuv/libuv<br>
 
