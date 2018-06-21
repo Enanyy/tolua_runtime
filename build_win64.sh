@@ -35,16 +35,18 @@ gcc -m64 -O2 -std=gnu99 -shared -w \
  luasocket/udp.c \
  luasocket/wsocket.c \
  luv/luv.c \
+ pack/lpack.c \
+ uuid/wuuid.c \
+ uuid/luuid.c \
  -o Plugins/x86_64/tolua.dll \
  -I./ \
  -Iluajit-2.1/src \
  -Iluasocket \
  -Ilibuv-v1.19.2/include \
  -Iluv \
+ -Ipack \
+ -Iuuid \
  -L./window/x86_64 -luv \
- -lws2_32 -lpsapi -luserenv -lkernel32 -luser32 -liphlpapi -lgdi32 -lwinspool -lcomdlg32 -ladvapi32  \
+ -lws2_32 -lpsapi -luserenv -lkernel32 -luser32 -liphlpapi -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lrpcrt4 \
  -Wl,--whole-archive window/x86_64/libluajit.a -Wl,--no-whole-archive -static-libgcc -static-libstdc++
  
-echo 按任意键继续
-read -n 1
-echo 继续运行

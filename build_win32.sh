@@ -11,7 +11,7 @@ mingw32-make clean
 
 cd ..
 
-gcc -m32 -O2 -std=gnu99 -shared \
+gcc -m32 -O2 -std=gnu99 -shared -w \
 	int64.c \
 	uint64.c \
 	tolua.c \
@@ -35,6 +35,9 @@ gcc -m32 -O2 -std=gnu99 -shared \
 	luasocket/udp.c \
 	luasocket/wsocket.c \
 	luv/luv.c \
+	pack/lpack.c \
+	uuid/wuuid.c \
+	uuid/luuid.c \
 	-o Plugins/x86/tolua.dll \
 	-I./ \
 	-Iluajit-2.1/src \
@@ -42,6 +45,8 @@ gcc -m32 -O2 -std=gnu99 -shared \
 	-Iluasocket \
 	-Ilibuv-v1.19.2/include \
 	-Iluv \
+	-Ipack \
+	-Iuuid \
 	-L./window/x86 -luv \
-	-lws2_32 -lpsapi -luserenv -lkernel32 -luser32 -liphlpapi -lgdi32 -lwinspool -lcomdlg32 -ladvapi32  \
+	-lws2_32 -lpsapi -luserenv -lkernel32 -luser32 -liphlpapi -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lrpcrt4 \
 	-Wl,--whole-archive window/x86/libluajit.a -Wl,--no-whole-archive -static-libgcc -static-libstdc++
