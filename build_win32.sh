@@ -38,6 +38,9 @@ gcc -m32 -O2 -std=gnu99 -shared -w \
 	pack/lpack.c \
 	uuid/wuuid.c \
 	uuid/luuid.c \
+	lsqlite3/sqlite3/src/shell.c \
+	lsqlite3/sqlite3/src/sqlite3.c \
+	lsqlite3/lsqlite3.c \
 	-o Plugins/x86/tolua.dll \
 	-I./ \
 	-Iluajit-2.1/src \
@@ -47,6 +50,8 @@ gcc -m32 -O2 -std=gnu99 -shared -w \
 	-Iluv \
 	-Ipack \
 	-Iuuid \
+	-Ilsqlite3 \
+	-Ilsqlite3/sqlite3/src \
 	-L./window/x86 -luv \
 	-lws2_32 -lpsapi -luserenv -lkernel32 -luser32 -liphlpapi -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lrpcrt4 \
 	-Wl,--whole-archive window/x86/libluajit.a -Wl,--no-whole-archive -static-libgcc -static-libstdc++
