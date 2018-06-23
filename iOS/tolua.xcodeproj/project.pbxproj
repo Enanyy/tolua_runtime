@@ -65,6 +65,24 @@
 		8E9443A620D7D81900CB190A /* prepare.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438820D7D81900CB190A /* prepare.c */; };
 		8E9443A720D7D81900CB190A /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E94438920D7D81900CB190A /* tcp.c */; };
 		8E94440120D7FAED00CB190A /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E94440020D7FAED00CB190A /* libuv.a */; };
+		8EF50C6320DE02A300B25E29 /* luuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C6220DE02A300B25E29 /* luuid.c */; };
+		8EF50C6520DE02BF00B25E29 /* lfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C6420DE02BF00B25E29 /* lfs.c */; };
+		8EF50C6720DE02F600B25E29 /* lpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C6620DE02F600B25E29 /* lpack.c */; };
+		8EF50C6920DE032B00B25E29 /* lsqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C6820DE032B00B25E29 /* lsqlite3.c */; };
+		8EF50C6C20DE035500B25E29 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C6A20DE035500B25E29 /* sqlite3.c */; };
+		8EF50C6D20DE035500B25E29 /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C6B20DE035500B25E29 /* shell.c */; };
+		8EF50C8320DE04A700B25E29 /* test_uuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7120DE04A500B25E29 /* test_uuid.c */; };
+		8EF50C8420DE04A700B25E29 /* clear.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7220DE04A500B25E29 /* clear.c */; };
+		8EF50C8520DE04A700B25E29 /* isnull.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7420DE04A500B25E29 /* isnull.c */; };
+		8EF50C8620DE04A700B25E29 /* pack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7620DE04A500B25E29 /* pack.c */; };
+		8EF50C8720DE04A700B25E29 /* copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7720DE04A600B25E29 /* copy.c */; };
+		8EF50C8820DE04A700B25E29 /* gen_uuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7820DE04A600B25E29 /* gen_uuid.c */; };
+		8EF50C8920DE04A700B25E29 /* unparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7C20DE04A600B25E29 /* unparse.c */; };
+		8EF50C8A20DE04A700B25E29 /* randutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7E20DE04A600B25E29 /* randutils.c */; };
+		8EF50C8B20DE04A700B25E29 /* uuid_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C7F20DE04A600B25E29 /* uuid_time.c */; };
+		8EF50C8C20DE04A700B25E29 /* compare.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C8020DE04A600B25E29 /* compare.c */; };
+		8EF50C8D20DE04A700B25E29 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C8120DE04A600B25E29 /* parse.c */; };
+		8EF50C8E20DE04A700B25E29 /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF50C8220DE04A600B25E29 /* unpack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +183,31 @@
 		8E94438920D7D81900CB190A /* tcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tcp.c; path = ../../../luv/tcp.c; sourceTree = "<group>"; };
 		8E9443FF20D7F89100CB190A /* handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = handle.h; path = ../../../luv/handle.h; sourceTree = "<group>"; };
 		8E94440020D7FAED00CB190A /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuv.a; sourceTree = SOURCE_ROOT; };
+		8EF50C6220DE02A300B25E29 /* luuid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = luuid.c; path = ../../uuid/luuid.c; sourceTree = "<group>"; };
+		8EF50C6420DE02BF00B25E29 /* lfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lfs.c; path = ../../luafilesystem/src/lfs.c; sourceTree = "<group>"; };
+		8EF50C6620DE02F600B25E29 /* lpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpack.c; path = ../../pack/lpack.c; sourceTree = "<group>"; };
+		8EF50C6820DE032B00B25E29 /* lsqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lsqlite3.c; path = ../../lsqlite3/lsqlite3.c; sourceTree = "<group>"; };
+		8EF50C6A20DE035500B25E29 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = ../../lsqlite3/sqlite3/src/sqlite3.c; sourceTree = "<group>"; };
+		8EF50C6B20DE035500B25E29 /* shell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shell.c; path = ../../lsqlite3/sqlite3/src/shell.c; sourceTree = "<group>"; };
+		8EF50C7020DE04A500B25E29 /* all-io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "all-io.h"; path = "../../uuid/libuuid-1.0.3/all-io.h"; sourceTree = "<group>"; };
+		8EF50C7120DE04A500B25E29 /* test_uuid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = test_uuid.c; path = "../../uuid/libuuid-1.0.3/test_uuid.c"; sourceTree = "<group>"; };
+		8EF50C7220DE04A500B25E29 /* clear.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = clear.c; path = "../../uuid/libuuid-1.0.3/clear.c"; sourceTree = "<group>"; };
+		8EF50C7320DE04A500B25E29 /* uuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uuid.h; path = "../../uuid/libuuid-1.0.3/uuid.h"; sourceTree = "<group>"; };
+		8EF50C7420DE04A500B25E29 /* isnull.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = isnull.c; path = "../../uuid/libuuid-1.0.3/isnull.c"; sourceTree = "<group>"; };
+		8EF50C7520DE04A500B25E29 /* uuidP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uuidP.h; path = "../../uuid/libuuid-1.0.3/uuidP.h"; sourceTree = "<group>"; };
+		8EF50C7620DE04A500B25E29 /* pack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pack.c; path = "../../uuid/libuuid-1.0.3/pack.c"; sourceTree = "<group>"; };
+		8EF50C7720DE04A600B25E29 /* copy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = copy.c; path = "../../uuid/libuuid-1.0.3/copy.c"; sourceTree = "<group>"; };
+		8EF50C7820DE04A600B25E29 /* gen_uuid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gen_uuid.c; path = "../../uuid/libuuid-1.0.3/gen_uuid.c"; sourceTree = "<group>"; };
+		8EF50C7920DE04A600B25E29 /* uuidd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uuidd.h; path = "../../uuid/libuuid-1.0.3/uuidd.h"; sourceTree = "<group>"; };
+		8EF50C7A20DE04A600B25E29 /* randutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = randutils.h; path = "../../uuid/libuuid-1.0.3/randutils.h"; sourceTree = "<group>"; };
+		8EF50C7B20DE04A600B25E29 /* c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = c.h; path = "../../uuid/libuuid-1.0.3/c.h"; sourceTree = "<group>"; };
+		8EF50C7C20DE04A600B25E29 /* unparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unparse.c; path = "../../uuid/libuuid-1.0.3/unparse.c"; sourceTree = "<group>"; };
+		8EF50C7D20DE04A600B25E29 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = "../../uuid/libuuid-1.0.3/config.h"; sourceTree = "<group>"; };
+		8EF50C7E20DE04A600B25E29 /* randutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = randutils.c; path = "../../uuid/libuuid-1.0.3/randutils.c"; sourceTree = "<group>"; };
+		8EF50C7F20DE04A600B25E29 /* uuid_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uuid_time.c; path = "../../uuid/libuuid-1.0.3/uuid_time.c"; sourceTree = "<group>"; };
+		8EF50C8020DE04A600B25E29 /* compare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compare.c; path = "../../uuid/libuuid-1.0.3/compare.c"; sourceTree = "<group>"; };
+		8EF50C8120DE04A600B25E29 /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse.c; path = "../../uuid/libuuid-1.0.3/parse.c"; sourceTree = "<group>"; };
+		8EF50C8220DE04A600B25E29 /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unpack.c; path = "../../uuid/libuuid-1.0.3/unpack.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +242,10 @@
 		8400929D1CCF43D600F89A56 /* tolua */ = {
 			isa = PBXGroup;
 			children = (
+				8EF50C6120DE026C00B25E29 /* uuid */,
+				8EF50C6020DE025D00B25E29 /* luafilesystem */,
+				8EF50C5F20DE024900B25E29 /* sqlite3 */,
+				8EF50C5E20DE023100B25E29 /* lpack */,
 				8E94440020D7FAED00CB190A /* libuv.a */,
 				8E94436520D7D7DE00CB190A /* luv */,
 				840092BD1CCF45A800F89A56 /* luasocket */,
@@ -312,6 +359,67 @@
 			path = luv;
 			sourceTree = "<group>";
 		};
+		8EF50C5E20DE023100B25E29 /* lpack */ = {
+			isa = PBXGroup;
+			children = (
+				8EF50C6620DE02F600B25E29 /* lpack.c */,
+			);
+			name = lpack;
+			sourceTree = "<group>";
+		};
+		8EF50C5F20DE024900B25E29 /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF50C6B20DE035500B25E29 /* shell.c */,
+				8EF50C6A20DE035500B25E29 /* sqlite3.c */,
+				8EF50C6820DE032B00B25E29 /* lsqlite3.c */,
+			);
+			name = sqlite3;
+			sourceTree = "<group>";
+		};
+		8EF50C6020DE025D00B25E29 /* luafilesystem */ = {
+			isa = PBXGroup;
+			children = (
+				8EF50C6420DE02BF00B25E29 /* lfs.c */,
+			);
+			name = luafilesystem;
+			sourceTree = "<group>";
+		};
+		8EF50C6120DE026C00B25E29 /* uuid */ = {
+			isa = PBXGroup;
+			children = (
+				8EF50C6F20DE046100B25E29 /* libuuid */,
+				8EF50C6220DE02A300B25E29 /* luuid.c */,
+			);
+			name = uuid;
+			sourceTree = "<group>";
+		};
+		8EF50C6F20DE046100B25E29 /* libuuid */ = {
+			isa = PBXGroup;
+			children = (
+				8EF50C7020DE04A500B25E29 /* all-io.h */,
+				8EF50C7B20DE04A600B25E29 /* c.h */,
+				8EF50C7220DE04A500B25E29 /* clear.c */,
+				8EF50C8020DE04A600B25E29 /* compare.c */,
+				8EF50C7D20DE04A600B25E29 /* config.h */,
+				8EF50C7720DE04A600B25E29 /* copy.c */,
+				8EF50C7820DE04A600B25E29 /* gen_uuid.c */,
+				8EF50C7420DE04A500B25E29 /* isnull.c */,
+				8EF50C7620DE04A500B25E29 /* pack.c */,
+				8EF50C8120DE04A600B25E29 /* parse.c */,
+				8EF50C7E20DE04A600B25E29 /* randutils.c */,
+				8EF50C7A20DE04A600B25E29 /* randutils.h */,
+				8EF50C7120DE04A500B25E29 /* test_uuid.c */,
+				8EF50C8220DE04A600B25E29 /* unpack.c */,
+				8EF50C7C20DE04A600B25E29 /* unparse.c */,
+				8EF50C7F20DE04A600B25E29 /* uuid_time.c */,
+				8EF50C7320DE04A500B25E29 /* uuid.h */,
+				8EF50C7920DE04A600B25E29 /* uuidd.h */,
+				8EF50C7520DE04A500B25E29 /* uuidP.h */,
+			);
+			name = libuuid;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -369,14 +477,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF50C8620DE04A700B25E29 /* pack.c in Sources */,
 				8E94438E20D7D81900CB190A /* handle.c in Sources */,
 				8E9443A320D7D81900CB190A /* dns.c in Sources */,
 				8E94439720D7D81900CB190A /* misc.c in Sources */,
+				8EF50C6320DE02A300B25E29 /* luuid.c in Sources */,
 				8E94438A20D7D81900CB190A /* poll.c in Sources */,
 				8E94439120D7D81900CB190A /* lreq.c in Sources */,
 				8E94438C20D7D81900CB190A /* luv.c in Sources */,
 				840092A11CCF43D600F89A56 /* tolua.m in Sources */,
 				840092EB1CCF45A800F89A56 /* serial.c in Sources */,
+				8EF50C6920DE032B00B25E29 /* lsqlite3.c in Sources */,
 				8E94439420D7D81900CB190A /* process.c in Sources */,
 				8E94438B20D7D81900CB190A /* async.c in Sources */,
 				840092EE1CCF45A800F89A56 /* udp.c in Sources */,
@@ -386,9 +497,14 @@
 				8E94439A20D7D81900CB190A /* work.c in Sources */,
 				840092AC1CCF451400F89A56 /* lpeg.c in Sources */,
 				840092BB1CCF455100F89A56 /* lua_cjson.c in Sources */,
+				8EF50C6D20DE035500B25E29 /* shell.c in Sources */,
+				8EF50C6C20DE035500B25E29 /* sqlite3.c in Sources */,
+				8EF50C6520DE02BF00B25E29 /* lfs.c in Sources */,
+				8EF50C8820DE04A700B25E29 /* gen_uuid.c in Sources */,
 				8E94439020D7D81900CB190A /* fs_poll.c in Sources */,
 				8E9443A020D7D81900CB190A /* udp.c in Sources */,
 				8E94439E20D7D81900CB190A /* tty.c in Sources */,
+				8EF50C8D20DE04A700B25E29 /* parse.c in Sources */,
 				840092B01CCF452100F89A56 /* struct.c in Sources */,
 				840092B21CCF452700F89A56 /* tolua.c in Sources */,
 				8445EB151D4C9F8A00397F5E /* uint64.c in Sources */,
@@ -397,10 +513,15 @@
 				8E9443A620D7D81900CB190A /* prepare.c in Sources */,
 				840092EC1CCF45A800F89A56 /* tcp.c in Sources */,
 				8E94438F20D7D81900CB190A /* timer.c in Sources */,
+				8EF50C8B20DE04A700B25E29 /* uuid_time.c in Sources */,
+				8EF50C8720DE04A700B25E29 /* copy.c in Sources */,
+				8EF50C8A20DE04A700B25E29 /* randutils.c in Sources */,
 				840092F01CCF45A800F89A56 /* usocket.c in Sources */,
+				8EF50C6720DE02F600B25E29 /* lpack.c in Sources */,
 				840092EF1CCF45A800F89A56 /* unix.c in Sources */,
 				840092AA1CCF450F00F89A56 /* int64.c in Sources */,
 				840092ED1CCF45A800F89A56 /* timeout.c in Sources */,
+				8EF50C8C20DE04A700B25E29 /* compare.c in Sources */,
 				8E94439620D7D81900CB190A /* constants.c in Sources */,
 				840092E11CCF45A800F89A56 /* auxiliar.c in Sources */,
 				8E9443A520D7D81900CB190A /* lhandle.c in Sources */,
@@ -411,14 +532,19 @@
 				840092E81CCF45A800F89A56 /* mime.c in Sources */,
 				840092AE1CCF451C00F89A56 /* pb.c in Sources */,
 				840092E61CCF45A800F89A56 /* io.c in Sources */,
+				8EF50C8520DE04A700B25E29 /* isnull.c in Sources */,
+				8EF50C8320DE04A700B25E29 /* test_uuid.c in Sources */,
 				8E94439820D7D81900CB190A /* signal.c in Sources */,
 				8E94439F20D7D81900CB190A /* schema.c in Sources */,
 				840092BA1CCF455100F89A56 /* fpconv.c in Sources */,
+				8EF50C8920DE04A700B25E29 /* unparse.c in Sources */,
 				8E94438D20D7D81900CB190A /* fs_event.c in Sources */,
 				840092E21CCF45A800F89A56 /* buffer.c in Sources */,
+				8EF50C8420DE04A700B25E29 /* clear.c in Sources */,
 				8E94439220D7D81900CB190A /* idle.c in Sources */,
 				840092BC1CCF455100F89A56 /* strbuf.c in Sources */,
 				8E9443A220D7D81900CB190A /* util.c in Sources */,
+				8EF50C8E20DE04A700B25E29 /* unpack.c in Sources */,
 				840092E91CCF45A800F89A56 /* options.c in Sources */,
 				840092E51CCF45A800F89A56 /* inet.c in Sources */,
 				840092EA1CCF45A800F89A56 /* select.c in Sources */,
@@ -517,12 +643,25 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					HAVE_USLEEP,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"../luajit-2.1/src",
 					"../libuv-v1.19.2/include",
 					"../libuv-v1.19.2/src",
 					"../libuv-v1.19.2/src/unix",
 					../luv,
+					../luafilesystem,
+					"../lsqlite3/**",
+					"../uuid/**",
+					../pack,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -540,12 +679,17 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_USLEEP;
 				HEADER_SEARCH_PATHS = (
 					"../luajit-2.1/src",
 					"../libuv-v1.19.2/include",
 					"../libuv-v1.19.2/src",
 					"../libuv-v1.19.2/src/unix",
 					../luv,
+					../luafilesystem,
+					"../lsqlite3/**",
+					"../uuid/**",
+					../pack,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
